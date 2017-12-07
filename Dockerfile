@@ -1,5 +1,5 @@
 # 基础镜像为daocloud.io/liusheng/lamp
-FROM daocloud.io/liusheng/lamp
+FROM daocloud.io/liusheng/lamp:master-98827dc
 
 # 作者为liusec
 MAINTAINER liusec <75065472@qq.com>
