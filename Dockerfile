@@ -19,7 +19,7 @@ RUN set -x \
 # 修改接收邮件的邮箱
 RUN set -x \
     && mysql -e "CREATE DATABASE srcms DEFAULT CHARACTER SET utf8;" -uroot -proot \
-    && mysql -e "use srcms;source /var/www/html/DB/srcms.sql;" -uroot -proot
+    && mysql -e "use srcms;source /var/www/html/DB/srcms.sql;" -uroot -proot \
     && rm -f /var/www/html/DB/srcms.sql \
     && sed -i 's/1009465756@qq.com/75065472@qq.com/g' /var/www/html/Application/User/Controller/PostController.class.php
 
