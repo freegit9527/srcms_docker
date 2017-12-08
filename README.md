@@ -19,4 +19,4 @@ $ docker run -d -p 8000:80 daocloud.io/liusheng/srcms_docker:latest
 
 [http://127.0.0.1:8000/index.php](http://127.0.0.1:8000/index.php)
 
-![srcms_index.png](srcms_index.png)
+![srcms_index.png](https://github.com/liusec/srcms_docker/blob/master/srcms_index.png)
